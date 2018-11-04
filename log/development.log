@@ -306,3 +306,9 @@ Started GET "/students" for 24.23.124.174 at 2018-11-04 18:45:29 +0000
 Processing by StudentsController#index as HTML
   Rendered students/index.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 228ms (Views: 217.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 24.23.124.174 at 2018-11-04 18:46:08 +0000
+Processing by StudentsController#index as HTML
+  Rendered students/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
