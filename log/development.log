@@ -299,3 +299,10 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 24.23.124.174 at 2018-11-04 18:41:46 +0000
+
+
+Started GET "/students" for 24.23.124.174 at 2018-11-04 18:45:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#index as HTML
+  Rendered students/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 228ms (Views: 217.1ms | ActiveRecord: 0.0ms)
